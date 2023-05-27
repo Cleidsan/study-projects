@@ -1,0 +1,20 @@
+@media screen and (max-width: 800px) {
+   #listagem {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+   }
+   article {
+      width: auto;
+   }
+   nav {
+      display: none;
+   }
+
+   #mobile-button-menu {
+      display: block;
+   }
+}

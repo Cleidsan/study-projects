@@ -1,0 +1,26 @@
+/* Esse css e apenas para o modo imprimir*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+#listagem {
+   display: none;
+   font-family: 'Roboto', sans-serif;
+}
+
+#principal {
+   font-family: 'Roboto', sans-serif;
+   height: 600px;
+}
+#principal img {
+   width: 350px;
+   font-family: 'Roboto', sans-serif;
+}
+
+#principal a {
+   display: none;
+   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+   display: none;
+   font-family: 'Roboto', sans-serif;
+}

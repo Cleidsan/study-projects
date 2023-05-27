@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%
+}
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+.corLogo {
+  color: #F5124B;
+  font-size: 45pt;
+}
+main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#principal{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #2A2B2A;
+    color: #F8F4E3;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  nav ul, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li, ul li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child, ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a, li a {
+    color: #F8F4E3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #listagem{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+  }
+
+  hr{
+    width: 80%;
+    margin: 0px auto;
+    border: #F5124B 2px solid;
+  }
+
+  #mobile-button-menu {
+    width: 20px;
+    margin: 0 auto;
+    display: none;
+    cursor: pointer;
+  }
+
+  #mobile-menu {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+  }
+
+  #div-mobile-menu ul li {
+    width: 100%;  
+  }
+
+  .hv:hover {
+    color: #F5124B;
+  }
+
+  #sei-la {
+    display: flex;
+    justify-content: end;
+
+  }
+  #mobile-button-menu {
+    display: none;
+  }
+  /* Estilos para a seção de receita */
+  section {
+    margin: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  article {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #2a2b2a7e solid 1px;
+    border-radius: 10px;
+  }
+  
+  article h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  article img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  article p {
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: center;
+    color: #706C61;
+  }
+  
+  article a {
+    background-color: #F5124B;
+    color: #F8F4E3;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  article a:hover {
+    background-color: #FF8966;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    width: 100%;
+    background-color: #2A2B2A;
+    color: #F8F4E3;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  
